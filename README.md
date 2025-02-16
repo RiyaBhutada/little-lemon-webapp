@@ -1,11 +1,18 @@
-# Getting Started with Create React App
+# Little Lemon (Restaurant Table Reservations)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Little Lemon is a responsive web app designed to streamline restaurant table reservations. The app enhances user experience with an intuitive booking system, validated forms, and a strong focus on accessibility, usability, and SEO.
+
+Technologies Used
+- Frontend: React, HTML, CSS
+- Design: Figma
+- Testing: Unit testing frameworks integrated with React
+- SEO: Semantic HTML, meta tags, Open Graph protocol
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npx`
 ### `npm start`
 
 Runs the app in the development mode.\
