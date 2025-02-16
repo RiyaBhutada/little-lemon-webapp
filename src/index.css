@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  /* text-align: center; */
+  font-family: 'Karla';
+  font-size: 18px;
+  font-weight: normal;
+  color: #495e57;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+  margin: 0;
+}
+
+title, h1 {
+  font-family: 'Markazi Text';
+  font-size: 64px;
+  /* color: #f4ce14; */
+  
+}
+
+h2 {
+  /* Sub Title */
+  font-family: 'Markazi Text';
+  font-size: 40px;
+}
+
+h3 {
+/* Section Title */
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+h4 {
+/* Section Category */
+  font-size: 16px;
+  font-weight: bolder;
+}
+h5 {
+/* Card Title */
+  font-size: 18px;
+  font-weight: bold;
+}
+h6 {
+  /* Lead Text */
+  font-size: 18px;
+}
+
+p {
+  /* Price */
+  font-size: 16px;
+  color: #495e57;
+  line-height: 1.5;
+  max-width: 65ch;
+}
+
+span {
+  color: #ee9972;
+  font-size: 16px;
+}
+
+img {
+  /* background-color: black; */
+  border-radius: 10%;
+}
+
+header {
+  width: auto;
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+
+header img {
+  grid-column: 2 / span 3;
+  grid-column-start: 1;
+}
+
+header nav {
+  /* background-color: aquamarine; */
+  grid-column: 5 / span 8;
+}
+
+header ul {
+  /* background-color: white; */
+  text-align: right;
+}
+
+header li {
+  display: inline-block;
+  padding-left: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+#lastItem {
+  padding-right: 5px;
+}
+
+/* Primary Colors
+green color: #495e57;
+yellow color: #f4ce14;
+
+Sec colors
+skin color: #ee9972;
+light skin color: #fbdabb;
+grey white color: #edefee;
+close to black color: #333333; */
+
+
+@media (max-width: 700px) {
+  .grid-adjustable-columns {
+    display: grid;
+    grid-auto-flow: row;
+  }
+}
+
+@media (min-width: 1001px) {
+  .grid-adjustable-columns {
+    width: min(1000px,75rem);
+    margin: 0 auto;
+    grid-auto-flow: column;
+    gap: 1em;
+  }
+}
+
+footer {
+  color: #495e57;
+  text-align: center;
+}
+
+footer div{
+  display: block;
+  text-align: center;
+  background-color: #edefee;
+}
+
+.footerNav{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* background-color: #495e57; */
+}
+
+.footerNav img {
+  /* background-color: teal; */
+  align-self: center;
+}
+
+.footerNav div{
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footerNav ul {
+  height: 100%;
+}
+
+.footerNav li {
+  display: block;
+}
+
+.footerNav a {
+  color: #495e57;
+}
